@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff; /* Bílý text pro lepší čitelnost */
+}
+
+header {
+    background-image: url('../img/planet.png');
+    background-color: rgb(27, 25, 25);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.card  {
+        margin-top: 30px!important;
+        margin-bottom: 20px!important;
+        border: 1px solid #7e7d7d!important;
+        border-radius: 8px!important;
+        overflow: hidden!important;
+        background-color: rgb(182, 182, 182) !important;
+        
+    
+}
+
+.card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.form-label {
+    font-size: 18px;
+    color: #fff; /* Bílý text pro lepší čitelnost */
+}
+
+.form-select {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #1f7a6eb7 !important;
+    border-color: #85858544 !important;
+}
+
+.more-info {
+    display: none;
+}
+
+.more-info.show {
+    display: block;
+}
