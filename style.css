@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: #fff; /* Bílý text pro lepší čitelnost */
+    color: #fff; 
 }
 
 header {
@@ -62,7 +62,7 @@ main {
 
 .form-label {
     font-size: 18px;
-    color: #fff; /* Bílý text pro lepší čitelnost */
+    color: #fff; 
 }
 
 .form-select {
